@@ -7,8 +7,6 @@ on:
       tag_name:
         description: 'Tag name for the release'
         required: false
-        tag_name: v1.0.0 # 明确指定标签名
-        # 如果没有tag，也可以在这里让它自动生成
         tag_name: ${{ github.ref_name }}
   push:
     tags:
