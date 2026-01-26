@@ -7,7 +7,7 @@ on:
       tag_name:
         description: 'Tag name for the release'
         required: false
-        default: 'v1.0.0'
+        default: 'main'
   push:
     tags:
       - "v*"
