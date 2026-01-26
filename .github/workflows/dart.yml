@@ -7,7 +7,7 @@ on:
       tag_name:
         description: 'Tag name for the release'
         required: false
-        tag_name: ${{ github.ref_name }}
+        tag_name: main
   push:
     tags:
       - "v*"
