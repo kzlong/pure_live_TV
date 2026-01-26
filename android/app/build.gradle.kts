@@ -44,7 +44,7 @@ android {
 
     defaultConfig {
         applicationId = "com.mystyle.purelive"
-        minSdk = flutter.minSdkVersion
+        minSdk = 21
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
@@ -79,4 +79,5 @@ android {
 
 flutter {
     source = "../.."
+
 }    
