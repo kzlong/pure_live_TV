@@ -4,7 +4,7 @@ publish_to: 'none'
 version: 2.0.12+12
 
 environment:
-  sdk: ^3.10.4
+  sdk: ">=3.2.0 <3.3.0"
 dependencies:
   flutter:
     sdk: flutter
@@ -166,3 +166,4 @@ flutter_intl:
   enabled: true
   arb_dir: lib/common/l10n
   output_dir: lib/common/l10n/generated
+
