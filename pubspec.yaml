@@ -31,21 +31,21 @@ dependencies:
       url:  https://github.com/xiaoyaocz/dart_simple_live.git
       path: ./simple_live_core/packages/tars_dart
   # video player 
-  media_kit:
-    git:
-      url: https://github.com/Predidit/media-kit.git
-      ref: main
-      path: ./media_kit
-  media_kit_video:
-    git:
-      url: https://github.com/Predidit/media-kit.git
-      ref: main
-      path: ./media_kit_video
-  media_kit_libs_video:
-    git:
-      url: https://github.com/Predidit/media-kit.git
-      ref: main
-      path: ./libs/universal/media_kit_libs_video
+  media_kit: ^1.1.10
+   # git:
+   #   url: https://github.com/Predidit/media-kit.git
+   #   ref: main
+   #   path: ./media_kit
+  media_kit_video: ^1.1.10
+   # git:
+   #   url: https://github.com/Predidit/media-kit.git
+   #   ref: main
+   #   path: ./media_kit_video
+  media_kit_libs_video: ^1.3.6
+    #git:
+    #  url: https://github.com/Predidit/media-kit.git
+    #  ref: main
+    #  path: ./libs/universal/media_kit_libs_video
   flv_lzc:
     git: https://github.com/liuchuancong/flv_lzc.git
   bordered_text: ^3.0.0
@@ -166,4 +166,5 @@ flutter_intl:
   enabled: true
   arb_dir: lib/common/l10n
   output_dir: lib/common/l10n/generated
+
 
